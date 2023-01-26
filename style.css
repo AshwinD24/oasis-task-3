@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  main{
+     font-size: 30px;
+     font-weight: bold;
+     background-color: bisque;
+  }
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 20px;
+}
+
+label {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: wheat;
+  }
+
+  input {
+    margin: 50px 0 10px;
+    padding: 7px;
+    font-size: 20px;
+  }
+  p {
+    background-color: aqua;
+  }
+  .result {
+    margin: 10px 0 50px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    height: 1em;
+    font-weight: bold;
+    color: white;
+  }
+
+  button {
+    width: 200px;
+    margin: 0 30px;
+    padding: 10px 30px;
+    background-color: azure;
+    border-radius: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  button:hover {
+    box-shadow: 3px 3px 10px var(--color2);
+  }
